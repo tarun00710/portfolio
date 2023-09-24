@@ -1,6 +1,6 @@
 import React from "react";
 import ProfilePic from "../Assets/Profile.png";
-import Resume from "../Assets/Nawed_Rashid_Resume.pdf";
+import Resume from "../Assets/tarun_resume_sep.pdf";
 import { BiRightArrow, BiDownload } from "react-icons/bi";
 import { profileBasicInfo } from "../utils/constants";
 
