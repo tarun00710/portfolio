@@ -7,7 +7,7 @@ const Projects = () => {
 
   const toastHandler = () => {
     setToast(true);
-    const timer = setTimeout(() => {
+    setTimeout(() => {
       setToast(false);
     }, 3000);
   };
@@ -68,13 +68,12 @@ const Projects = () => {
                 onClick={() => toastHandler()}
                 className=" text-white w-full px-6 py-3 my-2 mx-4 hover:scale-105 duration-200 flex items-center justify-center rounded-md bg-gradient-to-r from-btngrd1 via-btngrd3 to-btngrd4 font-semibold"
               >
-               {toast ? 'Coming soon...' :  'Visit'}
+                {toast ? "Coming soon..." : "Visit"}
               </button>
             </div>
           </div>
         </div>
       </div>
-
     </div>
   );
 };
