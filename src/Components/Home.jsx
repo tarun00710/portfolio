@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div
       name="Home"
-      className=" w-full bg-gradient-to-b from-grad1 via-head to-grad2 py-10"
+      className=" w-full bg-gradient-to-b from-grad1 via-head to-grad2 py-10 "
     >
       <div className="flex justify-center mx-auto items-center p-4">
         <div className="flex flex-col">

@@ -17,7 +17,7 @@ const Experience = () => {
           </p>
           <p className="py-6">My work experience till now.</p>
         </div>
-        <div className="w-full grid grid-cols-1 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-1 gap-8 text-center py-8 sm:px-0">
           <div className="shadow-md shadow-gray py-2 rounded-lg">
             <div className="flex flex-col sm:flex-row sm:justify-center items-center justify-center">
               <img
@@ -33,16 +33,16 @@ const Experience = () => {
                 <p className="font-bold sm:py-3 text-xl">{companyDetails.duration}</p>
               </div>
             </div>
-            <div className="flex flex-col justify-start">
-              <p className="my-3 mx-10 font-semibold text-btngrd1 flex flex-wrap items-center">
+            <div className="flex flex-col">
+              <p className="my-3 justify-center font-semibold text-btngrd1 flex flex-wrap items-center">
                 Tech Stack - {companyDetails.skills.map((skill)=>{
                   return <span className=" px-2 py-1 rounded-lg border ml-2 mt-1">
                     {skill}
                   </span>
                 })}
               </p>
-              <p className="my-3 mx-10 font-semibold underline underline-offset-8">Roles and Responsibility</p>
-              <p className="mb-5">- Designing and Building the user interface of the web application. <br/>
+              <p className="my-3 justify-center font-semibold underline underline-offset-8">Roles and Responsibility</p>
+              <p className="mb-5 px-2">- Designing and Building the user interface of the web application. <br/>
                 - Create modular React components<br/>
                 - Working with typescript <br/>
                 - Working on Performance tuning Technique. <br/>

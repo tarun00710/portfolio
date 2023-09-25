@@ -1,45 +1,9 @@
 import React from "react";
-import { FaLinkedin, FaGithub, FaTwitter, FaInstagram } from "react-icons/fa";
+import { socials } from "../utils/constants";
+
 
 const Contact = () => {
-  const socials = [
-    {
-      id: 1,
-      child: (
-        <>
-          <FaLinkedin size={30} />
-        </>
-      ),
-      href: "https://www.linkedin.com/in/tarunlalrajak/",
-    },
-    {
-      id: 2,
-      child: (
-        <>
-          <FaGithub size={30} />
-        </>
-      ),
-      href: "https://github.com/tarun00710",
-    },
-    {
-      id: 3,
-      child: (
-        <>
-          <FaTwitter size={30} />
-        </>
-      ),
-      href: "https://twitter.com/tkphenom",
-    },
-    {
-      id: 4,
-      child: (
-        <>
-          <FaInstagram size={30} />
-        </>
-      ),
-      href: "https://www.instagram.com/tarun_7.0/",
-    },
-  ];
+ 
 
   return (
     <div

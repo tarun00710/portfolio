@@ -7,7 +7,7 @@ import Technologies from './Components/Technologies';
 
 function App() {
   return (
-    <div className="w-full">
+    <div className="w-full overflow-x-hidden">
       <Navbar />
       <Home />
       <Technologies />

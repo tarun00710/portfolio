@@ -5,6 +5,7 @@ import {
   FaReact,
   FaNodeJs,
   FaGithub,
+  FaLinkedin, FaTwitter, FaInstagram
 } from "react-icons/fa";
 import {
   SiNextdotjs,
@@ -14,13 +15,7 @@ import {
   SiMui,
   SiExpress,
 } from "react-icons/si";
-import {
-  MdDeck,
-  MdQuiz,
-  MdShoppingCart,
-  MdMenuBook,
-//   MdFoodBank,
-} from "react-icons/md";
+import { MdDeck, MdQuiz, MdShoppingCart, MdMenuBook } from "react-icons/md";
 
 export const profileBasicInfo = {
   name: "Tarun Lal Rajak",
@@ -207,16 +202,78 @@ export const projects = [
     liveLink: "https://style-component.netlify.app/",
     codeLink: "https://github.com/tarun00710/component-library",
   },
-//   {
-//     child: (
-//       <>
-//         <MdFoodBank className="w-20 h-20 mx-auto " />
-//       </>
-//     ),
-//     title: "Meals",
-//     description:
-//       "An app for ordering food by giving address on checkout, Frontend made using ReactJs, Firebase is used as Backend. ",
-//     liveLink: "",
-//     codeLink: "",
-//   },
+  //   {
+  //     child: (
+  //       <>
+  //         <MdFoodBank className="w-20 h-20 mx-auto " />
+  //       </>
+  //     ),
+  //     title: "Meals",
+  //     description:
+  //       "An app for ordering food by giving address on checkout, Frontend made using ReactJs, Firebase is used as Backend. ",
+  //     liveLink: "",
+  //     codeLink: "",
+  //   },
+];
+
+export const socials = [
+  {
+    id: 1,
+    child: (
+      <>
+        <FaLinkedin size={30} />
+      </>
+    ),
+    href: "https://www.linkedin.com/in/tarunlalrajak/",
+  },
+  {
+    id: 2,
+    child: (
+      <>
+        <FaGithub size={30} />
+      </>
+    ),
+    href: "https://github.com/tarun00710",
+  },
+  {
+    id: 3,
+    child: (
+      <>
+        <FaTwitter size={30} />
+      </>
+    ),
+    href: "https://twitter.com/tkphenom",
+  },
+  {
+    id: 4,
+    child: (
+      <>
+        <FaInstagram size={30} />
+      </>
+    ),
+    href: "https://www.instagram.com/tarun_7.0/",
+  },
+];
+
+export const links = [
+  {
+    id: 1,
+    link: "Home",
+  },
+  {
+    id: 2,
+    link: "Technologies",
+  },
+  {
+    id: 3,
+    link: "Projects",
+  },
+  {
+    id: 4,
+    link: "Experience",
+  },
+  {
+    id: 5,
+    link: "Contacts",
+  },
 ];

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaTimes, FaBars } from "react-icons/fa";
 import { Link } from 'react-scroll'
+import { links } from "../utils/constants";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -9,31 +10,9 @@ const Navbar = () => {
     setNav(!nav);
   };
 
-  const links = [
-    {
-      id: 1,
-      link: "Home",
-    },
-    {
-      id: 2,
-      link: "Technologies",
-    },
-    {
-      id: 3,
-      link: "Projects",
-    },
-    {
-      id: 4,
-      link: "Experience",
-    },
-    {
-      id: 5,
-      link: "Contacts",
-    },
-  ];
 
   return (
-    <div className="flex justify-between items-center w-full h-20 bg-head text-white px-4">
+    <div className="flex justify-between items-center w-full h-20 bg-head text-white px-4 sm:w-full">
       <div>
         <h1 className="text-5xl font-portf ml-2">Portfolio</h1>
       </div>
